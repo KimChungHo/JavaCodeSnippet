@@ -7,8 +7,6 @@ import java.sql.*;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.UUID;
 
 public class MySQL implements AutoCloseable {
 	private Connection conn;
